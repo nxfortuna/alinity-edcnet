@@ -1,0 +1,634 @@
+[
+  {
+    "AssayID": 4450,
+    "Name": "Abbott Alinity i Anti-HBc II",
+    "SubChannelsCount": 1,
+    "TestProcessesMetadata": [
+      {
+        "TestProcess": "Detection",
+        "KitLotNumberMask": "#####??##",
+        "InstrumentsMetadata": [
+          {
+            "InstrumentID": 7961,
+            "Name": "Alinity i",
+            "Alias": null,
+            "SerialNumber": "AI01900",
+            "InstrumentChannelsMetadata": [
+              { "Name": "Channel 1", "ID": 1 }
+            ],
+            "InstrumentChannelsCount": 1
+          }
+        ],
+        "InstrumentsCount": 1,
+        "IsDetectionTestProcess": true
+      }
+    ],
+    "TestProcessesCount": 1,
+    "KitControlsMetadata": [
+      { "Name": "Negative", "SiteAlias": null, "LowerLimit": null, "UpperLimit": 0.8 },
+      { "Name": "Positive", "SiteAlias": null, "LowerLimit": 1.5, "UpperLimit": 3.96 }
+    ],
+    "KitControlCount": 2,
+    "AnalytesMetadata": [
+      {
+        "EQCValidationsMetadata": [
+          { "EQCLotNumberID": 1259, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1342, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1539, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1115, "NRLLowerLimit": 2.2, "NRLUpperLimit": 3.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1195, "NRLLowerLimit": 2.2, "NRLUpperLimit": 3.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1270, "NRLLowerLimit": 2.2, "NRLUpperLimit": 3.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1379, "NRLLowerLimit": 2.2, "NRLUpperLimit": 3.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1456, "NRLLowerLimit": 2.2, "NRLUpperLimit": 3.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1485, "NRLLowerLimit": 2.2, "NRLUpperLimit": 3.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1562, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1088, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1339, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1555, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 482, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 483, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 484, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 485, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 637, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1232, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1359, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1519, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1233, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1421, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1012, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1444, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null }
+        ],
+        "AnalyteID": 10,
+        "Analyte": "anti-HBc IgG",
+        "UOM": "S/Co"
+      }
+    ],
+    "AnalytesCount": 1,
+    "EQCLotNumbersMetadata": [
+      { "Name": "Optitrol Yellow (DM25043)", "ID": 1259 },
+      { "Name": "Optitrol Yellow (DM25143)", "ID": 1342 },
+      { "Name": "Optitrol Yellow (10809735)", "ID": 1539 },
+      { "Name": "Optitrol Blue (DM24191)", "ID": 1115 },
+      { "Name": "Optitrol Blue (DM24249)", "ID": 1195 },
+      { "Name": "Optitrol Blue (DM25044)", "ID": 1270 },
+      { "Name": "Optitrol Blue (DM25119)", "ID": 1379 },
+      { "Name": "Optitrol Blue (10751984)", "ID": 1456 },
+      { "Name": "Optitrol Blue (10807631)", "ID": 1485 },
+      { "Name": "Optitrol Blue (10824599)", "ID": 1562 },
+      { "Name": "Optitrol SeroNeg (DM24140)", "ID": 1088 },
+      { "Name": "Optitrol SeroNeg (DM25139)", "ID": 1339 },
+      { "Name": "Optitrol SeroNeg (10819356)", "ID": 1555 },
+      { "Name": "Multichem ID - SeroNeg (SN060419N)", "ID": 482 },
+      { "Name": "Multichem ID - SeroNeg (2635)", "ID": 483 },
+      { "Name": "Multichem ID-B (SB090320P)", "ID": 484 },
+      { "Name": "Multichem ID-B (2636)", "ID": 485 },
+      { "Name": "Multichem ID-B (SB101020P)", "ID": 637 },
+      { "Name": "VIROCLEAR (107900)", "ID": 1232 },
+      { "Name": "VIROCLEAR (107890)", "ID": 1359 },
+      { "Name": "VIROCLEAR (106670)", "ID": 1519 },
+      { "Name": "VIROTROL I (119920)", "ID": 1233 },
+      { "Name": "VIROTROL I (119960)", "ID": 1421 },
+      { "Name": "IHC_Postive Serum Pool (None)", "ID": 1012 },
+      { "Name": "ACCURUN 115 Hepatitis B Core lgG (10747129)", "ID": 1444 }
+    ],
+    "EQCLotNumbersCount": 25,
+    "CSVHeader": "AssayID,RecordID,Date,Comment,Valid,ResultType,Detection Operator,Detection KitLotNumber,Detection InstrumentIDOrInstrumentNameAndSerialNumber,Detection InstrumentChannelID,Negative Value,Positive Value,AnalyteID,EQCNameOrEQCLotNumberID,Value",
+    "CSVSamples": [
+      "4450,100485-EQC,2026-09-30,a comment,true,1,Operator Name,11111AA11,Alinity i:AI01900,1,,,10,Optitrol Yellow:DM25043,1.0",
+      "4450,100486-KC,2026-09-30,a comment,true,2,Operator Name,11111AA11,7961,1,1.0,1.0,,,",
+      "4450,100487-EQC-KC,2026-09-30,a comment,true,3,Operator Name,11111AA11,Alinity i:AI01900,1,1.0,1.0,10,1259,1.0"
+    ]
+  },
+  {
+    "AssayID": 8632,
+    "Name": "Abbott Alinity i Anti-HCV Next",
+    "SubChannelsCount": 1,
+    "TestProcessesMetadata": [
+      {
+        "TestProcess": "Detection",
+        "KitLotNumberMask": "#####??##",
+        "InstrumentsMetadata": [
+          {
+            "InstrumentID": 14276,
+            "Name": "Alinity i",
+            "Alias": null,
+            "SerialNumber": "AI01900",
+            "InstrumentChannelsMetadata": [
+              { "Name": "Channel 1", "ID": 1 }
+            ],
+            "InstrumentChannelsCount": 1
+          }
+        ],
+        "InstrumentsCount": 1,
+        "IsDetectionTestProcess": true
+      }
+    ],
+    "TestProcessesCount": 1,
+    "KitControlsMetadata": [
+      { "Name": "Negative", "SiteAlias": null, "LowerLimit": null, "UpperLimit": 0.5 },
+      { "Name": "Positive", "SiteAlias": null, "LowerLimit": 1.8, "UpperLimit": 5.4 }
+    ],
+    "KitControlCount": 2,
+    "AnalytesMetadata": [
+      {
+        "EQCValidationsMetadata": [
+          { "EQCLotNumberID": 1259, "NRLLowerLimit": 3.2, "NRLUpperLimit": 4.5, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1342, "NRLLowerLimit": 3.2, "NRLUpperLimit": 4.5, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1539, "NRLLowerLimit": 3.2, "NRLUpperLimit": 4.5, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1088, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1339, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1555, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null }
+        ],
+        "AnalyteID": 1,
+        "Analyte": "anti-HCV",
+        "UOM": "S/Co"
+      }
+    ],
+    "AnalytesCount": 1,
+    "EQCLotNumbersMetadata": [
+      { "Name": "Optitrol Yellow (DM25043)", "ID": 1259 },
+      { "Name": "Optitrol Yellow (DM25143)", "ID": 1342 },
+      { "Name": "Optitrol Yellow (10809735)", "ID": 1539 },
+      { "Name": "Optitrol SeroNeg (DM24140)", "ID": 1088 },
+      { "Name": "Optitrol SeroNeg (DM25139)", "ID": 1339 },
+      { "Name": "Optitrol SeroNeg (10819356)", "ID": 1555 }
+    ],
+    "EQCLotNumbersCount": 6,
+    "CSVHeader": "AssayID,RecordID,Date,Comment,Valid,ResultType,Detection Operator,Detection KitLotNumber,Detection InstrumentIDOrInstrumentNameAndSerialNumber,Detection InstrumentChannelID,Negative Value,Positive Value,AnalyteID,EQCNameOrEQCLotNumberID,Value",
+    "CSVSamples": [
+      "8632,100485-EQC,2026-09-30,a comment,true,1,Operator Name,11111AA11,Alinity i:AI01900,1,,,1,Optitrol Yellow:DM25043,1.0",
+      "8632,100486-KC,2026-09-30,a comment,true,2,Operator Name,11111AA11,14276,1,1.0,1.0,,,",
+      "8632,100487-EQC-KC,2026-09-30,a comment,true,3,Operator Name,11111AA11,Alinity i:AI01900,1,1.0,1.0,1,1259,1.0"
+    ]
+  },
+  {
+    "AssayID": 4454,
+    "Name": "Abbott Alinity i Chagas",
+    "SubChannelsCount": 1,
+    "TestProcessesMetadata": [
+      {
+        "TestProcess": "Detection",
+        "KitLotNumberMask": "#####??##",
+        "InstrumentsMetadata": [
+          {
+            "InstrumentID": 7965,
+            "Name": "Alinity i",
+            "Alias": null,
+            "SerialNumber": "AI01900",
+            "InstrumentChannelsMetadata": [
+              { "Name": "Channel 1", "ID": 1 }
+            ],
+            "InstrumentChannelsCount": 1
+          }
+        ],
+        "InstrumentsCount": 1,
+        "IsDetectionTestProcess": true
+      }
+    ],
+    "TestProcessesCount": 1,
+    "KitControlsMetadata": [
+      { "Name": "Negative", "SiteAlias": null, "LowerLimit": null, "UpperLimit": 0.56 },
+      { "Name": "Positive", "SiteAlias": null, "LowerLimit": 1.8, "UpperLimit": 4.95 }
+    ],
+    "KitControlCount": 2,
+    "AnalytesMetadata": [
+      {
+        "EQCValidationsMetadata": [
+          { "EQCLotNumberID": 753, "NRLLowerLimit": 4.8, "NRLUpperLimit": 7.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1097, "NRLLowerLimit": 4.8, "NRLUpperLimit": 7.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1140, "NRLLowerLimit": 4.8, "NRLUpperLimit": 7.4, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1551, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1088, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1339, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1555, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1012, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null }
+        ],
+        "AnalyteID": 57,
+        "Analyte": "Anti-T.cruzi",
+        "UOM": "S/Co"
+      }
+    ],
+    "AnalytesCount": 1,
+    "EQCLotNumbersMetadata": [
+      { "Name": "Optitrol Chagas-1 (110806998)", "ID": 753 },
+      { "Name": "Optitrol Chagas-1 (DM24105)", "ID": 1097 },
+      { "Name": "Optitrol Chagas-1 (DM24235)", "ID": 1140 },
+      { "Name": "Optitrol Chagas-1 (10806996)", "ID": 1551 },
+      { "Name": "Optitrol SeroNeg (DM24140)", "ID": 1088 },
+      { "Name": "Optitrol SeroNeg (DM25139)", "ID": 1339 },
+      { "Name": "Optitrol SeroNeg (10819356)", "ID": 1555 },
+      { "Name": "IHC_Postive Serum Pool (None)", "ID": 1012 }
+    ],
+    "EQCLotNumbersCount": 8,
+    "CSVHeader": "AssayID,RecordID,Date,Comment,Valid,ResultType,Detection Operator,Detection KitLotNumber,Detection InstrumentIDOrInstrumentNameAndSerialNumber,Detection InstrumentChannelID,Negative Value,Positive Value,AnalyteID,EQCNameOrEQCLotNumberID,Value",
+    "CSVSamples": [
+      "4454,100485-EQC,2026-09-30,a comment,true,1,Operator Name,11111AA11,Alinity i:AI01900,1,,,57,Optitrol Chagas-1:110806998,1.0",
+      "4454,100486-KC,2026-09-30,a comment,true,2,Operator Name,11111AA11,7965,1,1.0,1.0,,,",
+      "4454,100487-EQC-KC,2026-09-30,a comment,true,3,Operator Name,11111AA11,Alinity i:AI01900,1,1.0,1.0,57,753,1.0"
+    ]
+  },
+  {
+    "AssayID": 4944,
+    "Name": "Abbott Alinity i HBsAg Qualitative II",
+    "SubChannelsCount": 1,
+    "TestProcessesMetadata": [
+      {
+        "TestProcess": "Detection",
+        "KitLotNumberMask": "#####??##",
+        "InstrumentsMetadata": [
+          {
+            "InstrumentID": 8628,
+            "Name": "Alinity i",
+            "Alias": null,
+            "SerialNumber": "Ai01900",
+            "InstrumentChannelsMetadata": [
+              { "Name": "Channel 1", "ID": 1 }
+            ],
+            "InstrumentChannelsCount": 1
+          }
+        ],
+        "InstrumentsCount": 1,
+        "IsDetectionTestProcess": true
+      }
+    ],
+    "TestProcessesCount": 1,
+    "KitControlsMetadata": [
+      { "Name": "Negative", "SiteAlias": null, "LowerLimit": null, "UpperLimit": 0.85 },
+      { "Name": "Positive", "SiteAlias": null, "LowerLimit": 1.75, "UpperLimit": 5.25 }
+    ],
+    "KitControlCount": 2,
+    "AnalytesMetadata": [
+      {
+        "EQCValidationsMetadata": [
+          { "EQCLotNumberID": 1259, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1342, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1539, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1115, "NRLLowerLimit": 1.3, "NRLUpperLimit": 3.2, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1195, "NRLLowerLimit": 1.3, "NRLUpperLimit": 3.2, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1270, "NRLLowerLimit": 1.3, "NRLUpperLimit": 3.2, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1379, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1456, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1485, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1562, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1300, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1443, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1088, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1339, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1555, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 482, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 483, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 484, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 485, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 637, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1232, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1359, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1519, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1233, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1421, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1012, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null }
+        ],
+        "AnalyteID": 5,
+        "Analyte": "HBsAg",
+        "UOM": "S/Co"
+      }
+    ],
+    "AnalytesCount": 1,
+    "EQCLotNumbersMetadata": [
+      { "Name": "Optitrol Yellow (DM25043)", "ID": 1259 },
+      { "Name": "Optitrol Yellow (DM25143)", "ID": 1342 },
+      { "Name": "Optitrol Yellow (10809735)", "ID": 1539 },
+      { "Name": "Optitrol Blue (DM24191)", "ID": 1115 },
+      { "Name": "Optitrol Blue (DM24249)", "ID": 1195 },
+      { "Name": "Optitrol Blue (DM25044)", "ID": 1270 },
+      { "Name": "Optitrol Blue (DM25119)", "ID": 1379 },
+      { "Name": "Optitrol Blue (10751984)", "ID": 1456 },
+      { "Name": "Optitrol Blue (10807631)", "ID": 1485 },
+      { "Name": "Optitrol Blue (10824599)", "ID": 1562 },
+      { "Name": "VIROTROL II (123780)", "ID": 1300 },
+      { "Name": "VIROTROL II (123790)", "ID": 1443 },
+      { "Name": "Optitrol SeroNeg (DM24140)", "ID": 1088 },
+      { "Name": "Optitrol SeroNeg (DM25139)", "ID": 1339 },
+      { "Name": "Optitrol SeroNeg (10819356)", "ID": 1555 },
+      { "Name": "Multichem ID - SeroNeg (SN060419N)", "ID": 482 },
+      { "Name": "Multichem ID - SeroNeg (2635)", "ID": 483 },
+      { "Name": "Multichem ID-B (SB090320P)", "ID": 484 },
+      { "Name": "Multichem ID-B (2636)", "ID": 485 },
+      { "Name": "Multichem ID-B (SB101020P)", "ID": 637 },
+      { "Name": "VIROCLEAR (107900)", "ID": 1232 },
+      { "Name": "VIROCLEAR (107890)", "ID": 1359 },
+      { "Name": "VIROCLEAR (106670)", "ID": 1519 },
+      { "Name": "VIROTROL I (119920)", "ID": 1233 },
+      { "Name": "VIROTROL I (119960)", "ID": 1421 },
+      { "Name": "IHC_Postive Serum Pool (None)", "ID": 1012 }
+    ],
+    "EQCLotNumbersCount": 26,
+    "CSVHeader": "AssayID,RecordID,Date,Comment,Valid,ResultType,Detection Operator,Detection KitLotNumber,Detection InstrumentIDOrInstrumentNameAndSerialNumber,Detection InstrumentChannelID,Negative Value,Positive Value,AnalyteID,EQCNameOrEQCLotNumberID,Value",
+    "CSVSamples": [
+      "4944,100485-EQC,2026-09-30,a comment,true,1,Operator Name,11111AA11,Alinity i:Ai01900,1,,,5,Optitrol Yellow:DM25043,1.0",
+      "4944,100486-KC,2026-09-30,a comment,true,2,Operator Name,11111AA11,8628,1,1.0,1.0,,,",
+      "4944,100487-EQC-KC,2026-09-30,a comment,true,3,Operator Name,11111AA11,Alinity i:Ai01900,1,1.0,1.0,5,1259,1.0"
+    ]
+  },
+  {
+    "AssayID": 4448,
+    "Name": "Abbott Alinity i HIV Ag/Ab Combo",
+    "SubChannelsCount": 1,
+    "TestProcessesMetadata": [
+      {
+        "TestProcess": "Detection",
+        "KitLotNumberMask": "#####??##",
+        "InstrumentsMetadata": [
+          {
+            "InstrumentID": 7959,
+            "Name": "Alinity i",
+            "Alias": null,
+            "SerialNumber": "AI01900",
+            "InstrumentChannelsMetadata": [
+              { "Name": "Channel 1", "ID": 1 }
+            ],
+            "InstrumentChannelsCount": 1
+          }
+        ],
+        "InstrumentsCount": 1,
+        "IsDetectionTestProcess": true
+      }
+    ],
+    "TestProcessesCount": 1,
+    "KitControlsMetadata": [
+      { "Name": "Negative", "SiteAlias": null, "LowerLimit": null, "UpperLimit": 0.5 },
+      { "Name": "Positive 1", "SiteAlias": null, "LowerLimit": 1.2, "UpperLimit": 11.5 },
+      { "Name": "Positive 2", "SiteAlias": null, "LowerLimit": 1.52, "UpperLimit": 8.3 },
+      { "Name": "Positive 3", "SiteAlias": null, "LowerLimit": 1.87, "UpperLimit": 4.59 }
+    ],
+    "KitControlCount": 4,
+    "AnalytesMetadata": [
+      {
+        "EQCValidationsMetadata": [
+          { "EQCLotNumberID": 1259, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1342, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1539, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1311, "NRLLowerLimit": 1.8, "NRLUpperLimit": 4.9, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1338, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1115, "NRLLowerLimit": 2.4, "NRLUpperLimit": 7.9, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1195, "NRLLowerLimit": 2.4, "NRLUpperLimit": 7.9, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1270, "NRLLowerLimit": 2.4, "NRLUpperLimit": 7.9, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1379, "NRLLowerLimit": 2.4, "NRLUpperLimit": 7.9, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1456, "NRLLowerLimit": 2.4, "NRLUpperLimit": 7.9, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1485, "NRLLowerLimit": 2.4, "NRLUpperLimit": 7.9, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1562, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1088, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1339, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1555, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1104, "NRLLowerLimit": 5.0, "NRLUpperLimit": 9.2, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1350, "NRLLowerLimit": 5.0, "NRLUpperLimit": 9.2, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 482, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 483, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 484, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 485, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 637, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1232, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1359, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1519, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1233, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1421, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1412, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1012, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1413, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null }
+        ],
+        "AnalyteID": 68,
+        "Analyte": "HIV p24 Ag/Anti-HIV",
+        "UOM": "S/Co"
+      }
+    ],
+    "AnalytesCount": 1,
+    "EQCLotNumbersMetadata": [
+      { "Name": "Optitrol Yellow (DM25043)", "ID": 1259 },
+      { "Name": "Optitrol Yellow (DM25143)", "ID": 1342 },
+      { "Name": "Optitrol Yellow (10809735)", "ID": 1539 },
+      { "Name": "Optitrol HIVp24 (DM25078)", "ID": 1311 },
+      { "Name": "Optitrol HIVp24 (DM25141)", "ID": 1338 },
+      { "Name": "Optitrol Blue (DM24191)", "ID": 1115 },
+      { "Name": "Optitrol Blue (DM24249)", "ID": 1195 },
+      { "Name": "Optitrol Blue (DM25044)", "ID": 1270 },
+      { "Name": "Optitrol Blue (DM25119)", "ID": 1379 },
+      { "Name": "Optitrol Blue (10751984)", "ID": 1456 },
+      { "Name": "Optitrol Blue (10807631)", "ID": 1485 },
+      { "Name": "Optitrol Blue (10824599)", "ID": 1562 },
+      { "Name": "Optitrol SeroNeg (DM24140)", "ID": 1088 },
+      { "Name": "Optitrol SeroNeg (DM25139)", "ID": 1339 },
+      { "Name": "Optitrol SeroNeg (10819356)", "ID": 1555 },
+      { "Name": "Optitrol HIV2 (DM24078)", "ID": 1104 },
+      { "Name": "Optitrol HIV2 (DM25077)", "ID": 1350 },
+      { "Name": "Multichem ID - SeroNeg (SN060419N)", "ID": 482 },
+      { "Name": "Multichem ID - SeroNeg (2635)", "ID": 483 },
+      { "Name": "Multichem ID-B (SB090320P)", "ID": 484 },
+      { "Name": "Multichem ID-B (2636)", "ID": 485 },
+      { "Name": "Multichem ID-B (SB101020P)", "ID": 637 },
+      { "Name": "VIROCLEAR (107900)", "ID": 1232 },
+      { "Name": "VIROCLEAR (107890)", "ID": 1359 },
+      { "Name": "VIROCLEAR (106670)", "ID": 1519 },
+      { "Name": "VIROTROL I (119920)", "ID": 1233 },
+      { "Name": "VIROTROL I (119960)", "ID": 1421 },
+      { "Name": "Virotrol HIV-1 Ag (114360)", "ID": 1412 },
+      { "Name": "IHC_Postive Serum Pool (None)", "ID": 1012 },
+      { "Name": "VIROTROL HIV-2 (131690)", "ID": 1413 }
+    ],
+    "EQCLotNumbersCount": 30,
+    "CSVHeader": "AssayID,RecordID,Date,Comment,Valid,ResultType,Detection Operator,Detection KitLotNumber,Detection InstrumentIDOrInstrumentNameAndSerialNumber,Detection InstrumentChannelID,Negative Value,Positive 1 Value,Positive 2 Value,Positive 3 Value,AnalyteID,EQCNameOrEQCLotNumberID,Value",
+    "CSVSamples": [
+      "4448,100485-EQC,2026-09-30,a comment,true,1,Operator Name,11111AA11,Alinity i:AI01900,1,,,,,68,Optitrol Yellow:DM25043,1.0",
+      "4448,100486-KC,2026-09-30,a comment,true,2,Operator Name,11111AA11,7959,1,1.0,1.0,1.0,1.0,,,",
+      "4448,100487-EQC-KC,2026-09-30,a comment,true,3,Operator Name,11111AA11,Alinity i:AI01900,1,1.0,1.0,1.0,1.0,68,1259,1.0"
+    ]
+  },
+  {
+    "AssayID": 4449,
+    "Name": "Abbott Alinity i rHTLV-I/II",
+    "SubChannelsCount": 1,
+    "TestProcessesMetadata": [
+      {
+        "TestProcess": "Detection",
+        "KitLotNumberMask": "#####??##",
+        "InstrumentsMetadata": [
+          {
+            "InstrumentID": 7960,
+            "Name": "Alinity i",
+            "Alias": null,
+            "SerialNumber": "AI01900",
+            "InstrumentChannelsMetadata": [
+              { "Name": "Channel 1", "ID": 1 }
+            ],
+            "InstrumentChannelsCount": 1
+          }
+        ],
+        "InstrumentsCount": 1,
+        "IsDetectionTestProcess": true
+      }
+    ],
+    "TestProcessesCount": 1,
+    "KitControlsMetadata": [
+      { "Name": "Negative", "SiteAlias": null, "LowerLimit": null, "UpperLimit": 0.69 },
+      { "Name": "Positive", "SiteAlias": null, "LowerLimit": 2.07, "UpperLimit": 6.2 }
+    ],
+    "KitControlCount": 2,
+    "AnalytesMetadata": [
+      {
+        "EQCValidationsMetadata": [
+          { "EQCLotNumberID": 1259, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1342, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1539, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1115, "NRLLowerLimit": 1.5, "NRLUpperLimit": 2.6, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1195, "NRLLowerLimit": 1.5, "NRLUpperLimit": 2.6, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1270, "NRLLowerLimit": 1.5, "NRLUpperLimit": 2.6, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1379, "NRLLowerLimit": 1.5, "NRLUpperLimit": 2.6, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1456, "NRLLowerLimit": 1.5, "NRLUpperLimit": 2.6, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1485, "NRLLowerLimit": 1.5, "NRLUpperLimit": 2.6, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1562, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1088, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1339, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1555, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 482, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 483, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 484, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 485, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 637, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1232, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1359, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1519, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1233, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1421, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1012, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null }
+        ],
+        "AnalyteID": 32,
+        "Analyte": "anti-HTLV-I/II",
+        "UOM": "S/Co"
+      }
+    ],
+    "AnalytesCount": 1,
+    "EQCLotNumbersMetadata": [
+      { "Name": "Optitrol Yellow (DM25043)", "ID": 1259 },
+      { "Name": "Optitrol Yellow (DM25143)", "ID": 1342 },
+      { "Name": "Optitrol Yellow (10809735)", "ID": 1539 },
+      { "Name": "Optitrol Blue (DM24191)", "ID": 1115 },
+      { "Name": "Optitrol Blue (DM24249)", "ID": 1195 },
+      { "Name": "Optitrol Blue (DM25044)", "ID": 1270 },
+      { "Name": "Optitrol Blue (DM25119)", "ID": 1379 },
+      { "Name": "Optitrol Blue (10751984)", "ID": 1456 },
+      { "Name": "Optitrol Blue (10807631)", "ID": 1485 },
+      { "Name": "Optitrol Blue (10824599)", "ID": 1562 },
+      { "Name": "Optitrol SeroNeg (DM24140)", "ID": 1088 },
+      { "Name": "Optitrol SeroNeg (DM25139)", "ID": 1339 },
+      { "Name": "Optitrol SeroNeg (10819356)", "ID": 1555 },
+      { "Name": "Multichem ID - SeroNeg (SN060419N)", "ID": 482 },
+      { "Name": "Multichem ID - SeroNeg (2635)", "ID": 483 },
+      { "Name": "Multichem ID-B (SB090320P)", "ID": 484 },
+      { "Name": "Multichem ID-B (2636)", "ID": 485 },
+      { "Name": "Multichem ID-B (SB101020P)", "ID": 637 },
+      { "Name": "VIROCLEAR (107900)", "ID": 1232 },
+      { "Name": "VIROCLEAR (107890)", "ID": 1359 },
+      { "Name": "VIROCLEAR (106670)", "ID": 1519 },
+      { "Name": "VIROTROL I (119920)", "ID": 1233 },
+      { "Name": "VIROTROL I (119960)", "ID": 1421 },
+      { "Name": "IHC_Postive Serum Pool (None)", "ID": 1012 }
+    ],
+    "EQCLotNumbersCount": 24,
+    "CSVHeader": "AssayID,RecordID,Date,Comment,Valid,ResultType,Detection Operator,Detection KitLotNumber,Detection InstrumentIDOrInstrumentNameAndSerialNumber,Detection InstrumentChannelID,Negative Value,Positive Value,AnalyteID,EQCNameOrEQCLotNumberID,Value",
+    "CSVSamples": [
+      "4449,100485-EQC,2026-09-30,a comment,true,1,Operator Name,11111AA11,Alinity i:AI01900,1,,,32,Optitrol Yellow:DM25043,1.0",
+      "4449,100486-KC,2026-09-30,a comment,true,2,Operator Name,11111AA11,7960,1,1.0,1.0,,,",
+      "4449,100487-EQC-KC,2026-09-30,a comment,true,3,Operator Name,11111AA11,Alinity i:AI01900,1,1.0,1.0,32,1259,1.0"
+    ]
+  },
+  {
+    "AssayID": 4453,
+    "Name": "Abbott Alinity i Syphilis TP",
+    "SubChannelsCount": 1,
+    "TestProcessesMetadata": [
+      {
+        "TestProcess": "Detection",
+        "KitLotNumberMask": "#####??##",
+        "InstrumentsMetadata": [
+          {
+            "InstrumentID": 7964,
+            "Name": "Alinity i",
+            "Alias": null,
+            "SerialNumber": "AI01900",
+            "InstrumentChannelsMetadata": [
+              { "Name": "Channel 1", "ID": 1 }
+            ],
+            "InstrumentChannelsCount": 1
+          }
+        ],
+        "InstrumentsCount": 1,
+        "IsDetectionTestProcess": true
+      }
+    ],
+    "TestProcessesCount": 1,
+    "KitControlsMetadata": [
+      { "Name": "Negative", "SiteAlias": null, "LowerLimit": null, "UpperLimit": 0.4 },
+      { "Name": "Positive", "SiteAlias": null, "LowerLimit": 1.25, "UpperLimit": 3.75 }
+    ],
+    "KitControlCount": 2,
+    "AnalytesMetadata": [
+      {
+        "EQCValidationsMetadata": [
+          { "EQCLotNumberID": 1259, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1342, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1539, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1115, "NRLLowerLimit": 3.0, "NRLUpperLimit": 4.0, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1195, "NRLLowerLimit": 3.0, "NRLUpperLimit": 4.0, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1270, "NRLLowerLimit": 3.0, "NRLUpperLimit": 4.0, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1379, "NRLLowerLimit": 3.0, "NRLUpperLimit": 4.0, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1456, "NRLLowerLimit": 3.0, "NRLUpperLimit": 4.0, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1485, "NRLLowerLimit": 3.0, "NRLUpperLimit": 4.0, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1562, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1088, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1339, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1555, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 482, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 483, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 484, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 485, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 637, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1233, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1421, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null },
+          { "EQCLotNumberID": 1012, "NRLLowerLimit": null, "NRLUpperLimit": null, "CVLimit": null, "SiteLowerLimit": null, "SiteUpperLimit": null }
+        ],
+        "AnalyteID": 11,
+        "Analyte": "anti-Treponema pallidum",
+        "UOM": "S/Co"
+      }
+    ],
+    "AnalytesCount": 1,
+    "EQCLotNumbersMetadata": [
+      { "Name": "Optitrol Yellow (DM25043)", "ID": 1259 },
+      { "Name": "Optitrol Yellow (DM25143)", "ID": 1342 },
+      { "Name": "Optitrol Yellow (10809735)", "ID": 1539 },
+      { "Name": "Optitrol Blue (DM24191)", "ID": 1115 },
+      { "Name": "Optitrol Blue (DM24249)", "ID": 1195 },
+      { "Name": "Optitrol Blue (DM25044)", "ID": 1270 },
+      { "Name": "Optitrol Blue (DM25119)", "ID": 1379 },
+      { "Name": "Optitrol Blue (10751984)", "ID": 1456 },
+      { "Name": "Optitrol Blue (10807631)", "ID": 1485 },
+      { "Name": "Optitrol Blue (10824599)", "ID": 1562 },
+      { "Name": "Optitrol SeroNeg (DM24140)", "ID": 1088 },
+      { "Name": "Optitrol SeroNeg (DM25139)", "ID": 1339 },
+      { "Name": "Optitrol SeroNeg (10819356)", "ID": 1555 },
+      { "Name": "Multichem ID - SeroNeg (SN060419N)", "ID": 482 },
+      { "Name": "Multichem ID - SeroNeg (2635)", "ID": 483 },
+      { "Name": "Multichem ID-B (SB090320P)", "ID": 484 },
+      { "Name": "Multichem ID-B (2636)", "ID": 485 },
+      { "Name": "Multichem ID-B (SB101020P)", "ID": 637 },
+      { "Name": "VIROTROL I (119920)", "ID": 1233 },
+      { "Name": "VIROTROL I (119960)", "ID": 1421 },
+      { "Name": "IHC_Postive Serum Pool (None)", "ID": 1012 }
+    ],
+    "EQCLotNumbersCount": 21,
+    "CSVHeader": "AssayID,RecordID,Date,Comment,Valid,ResultType,Detection Operator,Detection KitLotNumber,Detection InstrumentIDOrInstrumentNameAndSerialNumber,Detection InstrumentChannelID,Negative Value,Positive Value,AnalyteID,EQCNameOrEQCLotNumberID,Value",
+    "CSVSamples": [
+      "4453,100485-EQC,2026-09-30,a comment,true,1,Operator Name,11111AA11,Alinity i:AI01900,1,,,11,Optitrol Yellow:DM25043,1.0",
+      "4453,100486-KC,2026-09-30,a comment,true,2,Operator Name,11111AA11,7964,1,1.0,1.0,,,",
+      "4453,100487-EQC-KC,2026-09-30,a comment,true,3,Operator Name,11111AA11,Alinity i:AI01900,1,1.0,1.0,11,1259,1.0"
+    ]
+  }
+]

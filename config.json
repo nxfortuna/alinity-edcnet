@@ -1,0 +1,111 @@
+{
+  "carpeta_logs": "C:\\Tharsis\\Apps\\Middleware\\communication.layer\\AlinityCI\\Log Interfaces",
+  "patron_logs": "*Log ALINITYCI*.txt",
+  "dias_logs": 7,
+  "intervalo_segundos": 300,
+  "carpeta_salida": "C:\\EDCNet Files\\Ready for Upload",
+  "prefijo_archivo": "Alinity ci SCM01934",
+  "archivo_metadata": "metadata_edcnet.json",
+  "subir_inmediato": true,
+  "asignar_lotes_auto": true,
+  "aviso_vencimiento_dias": 1,
+  "operador": "",
+  "comentario_tarde": {
+    "desde": "15:00",
+    "texto": "CONTROL DE 100 PRUEBAS"
+  },
+  "instrumento": "",
+  "canal_instrumento": "1",
+  "minutos_max_corrida": 120,
+  "eqc_formato": "id",
+  "controles_eqc": {
+    "CIN_LEVEL1": null,
+    "CIP_LEVEL1": {
+      "eqc": "",
+      "por_lote": {
+        "25143": "1342"
+      }
+    },
+    "CIN_CHAGAS_LEVEL1": null,
+    "CIP_CHAGAS_LEVEL1": {
+      "eqc": "",
+      "por_lote": {
+        "24235": "1140"
+      }
+    }
+  },
+  "ensayos": {
+    "336": {
+      "nombre": "HBsAg Qual II",
+      "assay_id": 4944,
+      "analyte_id": "5",
+      "instrumento": "",
+      "controles_kit": {
+        "HBSAG_LEVEL1": "Negative",
+        "HBSAG_LEVEL2": "Positive"
+      }
+    },
+    "396": {
+      "nombre": "HIV Ag/Ab Combo",
+      "assay_id": 4448,
+      "analyte_id": "68",
+      "instrumento": "",
+      "controles_kit": {
+        "HIV_NEG": "Negative",
+        "HIV_LEVEL1": "Positive 1",
+        "HIV_LEVEL2": "Positive 2",
+        "HIV_LEVEL3": "Positive 3"
+      }
+    },
+    "422": {
+      "nombre": "Anti-HCV Next",
+      "assay_id": 8632,
+      "analyte_id": "1",
+      "instrumento": "",
+      "controles_kit": {
+        "ANTI HCVNX_NEGATIVO": "Negative",
+        "ANTI HCVNX_POSITIVO": "Positive"
+      }
+    },
+    "470": {
+      "nombre": "rHTLV-I/II",
+      "assay_id": 4449,
+      "analyte_id": "32",
+      "instrumento": "",
+      "controles_kit": {
+        "HTLV I/II_LEVEL1": "Negative",
+        "HTLV I/II_LEVEL2": "Positive"
+      }
+    },
+    "565": {
+      "nombre": "Syphilis TP",
+      "assay_id": 4453,
+      "analyte_id": "11",
+      "instrumento": "",
+      "controles_kit": {
+        "SIFILIS_LEVEL1": "Negative",
+        "SIFILIS_LEVEL2": "Positive"
+      }
+    },
+    "638": {
+      "nombre": "Chagas",
+      "assay_id": 4454,
+      "analyte_id": "57",
+      "instrumento": "",
+      "controles_kit": {
+        "CHAGAS_LEVEL1": "Negative",
+        "CHAGAS_LEVEL2": "Positive"
+      }
+    },
+    "729": {
+      "nombre": "Anti-HBc II",
+      "assay_id": 4450,
+      "analyte_id": "10",
+      "instrumento": "",
+      "controles_kit": {
+        "CORE TOTAL_LEVEL1": "Negative",
+        "CORE TOTAL_LEVEL2": "Positive"
+      }
+    }
+  }
+}

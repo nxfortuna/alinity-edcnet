@@ -1,0 +1,20 @@
+# Estado local de la instalacion (no versionar: cambia en cada envio)
+procesados*.json
+envios.json
+ui_estado.json
+*.bak
+
+# Compilacion
+build/
+dist/
+*.spec
+*.exe
+__pycache__/
+*.pyc
+
+# Paquetes
+*.zip
+
+# Archivos generados para EDCNet
+*.csv
+*.tmp
